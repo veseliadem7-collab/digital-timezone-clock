@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Timezone Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🕐 Digital Timezone Clock</h1>
+            <p class="subtitle">Current time around the world</p>
+        </header>
+
+        <div class="controls">
+            <input type="text" id="searchInput" placeholder="Search timezone..." class="search-box">
+            <select id="timezoneSelect" class="timezone-select">
+                <option value="">Add Timezone</option>
+                <option value="America/New_York">New York (EST)</option>
+                <option value="America/Chicago">Chicago (CST)</option>
+                <option value="America/Denver">Denver (MST)</option>
+                <option value="America/Los_Angeles">Los Angeles (PST)</option>
+                <option value="Europe/London">London (GMT)</option>
+                <option value="Europe/Paris">Paris (CET)</option>
+                <option value="Europe/Berlin">Berlin (CET)</option>
+                <option value="Europe/Moscow">Moscow (MSK)</option>
+                <option value="Asia/Dubai">Dubai (GST)</option>
+                <option value="Asia/Kolkata">India (IST)</option>
+                <option value="Asia/Bangkok">Bangkok (ICT)</option>
+                <option value="Asia/Singapore">Singapore (SGT)</option>
+                <option value="Asia/Hong_Kong">Hong Kong (HKT)</option>
+                <option value="Asia/Tokyo">Tokyo (JST)</option>
+                <option value="Australia/Sydney">Sydney (AEDT)</option>
+                <option value="Pacific/Auckland">Auckland (NZDT)</option>
+                <option value="Pacific/Fiji">Fiji (FJT)</option>
+                <option value="America/Anchorage">Anchorage (AKST)</option>
+                <option value="Pacific/Honolulu">Honolulu (HST)</option>
+                <option value="America/Toronto">Toronto (EST)</option>
+                <option value="America/Mexico_City">Mexico City (CST)</option>
+                <option value="America/Sao_Paulo">São Paulo (BRT)</option>
+                <option value="America/Argentina/Buenos_Aires">Buenos Aires (ART)</option>
+                <option value="Africa/Cairo">Cairo (EET)</option>
+                <option value="Africa/Johannesburg">Johannesburg (SAST)</option>
+            </select>
+        </div>
+
+        <div class="clocks-grid" id="clocksGrid">
+            <!-- Clocks will be inserted here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
